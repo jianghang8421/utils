@@ -13,3 +13,4 @@ sudo add-apt-repository \
    stable"
 sudo apt-get update
 sudo apt-get install -y docker-ce
+echo "docker installed"
