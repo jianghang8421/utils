@@ -9,6 +9,8 @@ sudo apt-get update
 sudo apt-get install -y kubectl
 echo "kubectl installed"
 
+source <(kubectl completion bash)
+echo "source <(kubectl completion bash)" >> ~/.bashrc
 
 echo "====================================="
 echo "Install Docker stable"
